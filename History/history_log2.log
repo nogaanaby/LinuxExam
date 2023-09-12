@@ -1,0 +1,43 @@
+    1  git status
+    2  git add .
+    3  git commit -m "Question 01"
+    4  git checkout -b BR_Q2
+    5  git status
+    6  ls'
+    7  ls
+    8  aptitude search jdk
+    9  which Javac
+   10  which git
+   11  dpkg --get-selections | grep -v java
+   12  dpkg --get-selections | grep -v javac
+   13  dpkg --get-selections | grep java
+   14  dpkg --get-selections | grep javac
+   15  dpkg --get-selections | grep -v git
+   16  dpkg --get-selections | grep git
+   17  echo -e "UBUNTU-Version-Number: $(lsb_relese -d | cut -f2-) \n ------------------------------------------ \n Installed Java Packages: $(dpkg --get-selections | grep javac) \n Installed Git Packages: $(dpkg --get-selections | grep git)" >>Output\Q2\out_2.txt
+   18  echo -e "UBUNTU-Version-Number: $(lsb_realese -d | cut -f2-) \n ------------------------------------------ \n Installed Java Packages: $(dpkg --get-selections | grep javac) \n Installed Git Packages: $(dpkg --get-selections | grep git)" >Output\Q2\out_2.txt
+   19  echo -e "UBUNTU-Version-Number: $(lsb_release -d | cut -f2-) \n ------------------------------------------ \n Installed Java Packages: $(dpkg --get-selections | grep javac) \n Installed Git Packages: $(dpkg --get-selections | grep git)" >Output\Q2\out_2.txt
+   20  cat Output/Q2/
+   21  ls
+   22  rm OutputQ2out_2.txt 
+   23  echo -e "UBUNTU-Version-Number: $(lsb_release -d | cut -f2-) \n ------------------------------------------ \n Installed Java Packages: $(dpkg --get-selections | grep javac) \n Installed Git Packages: $(dpkg --get-selections | grep git)" >Output/Q2/out_2.txt
+   24  cd Outputs/Q2
+   25  echo -e "UBUNTU-Version-Number: $(lsb_release -d | cut -f2-) \n ------------------------------------------ \n Installed Java Packages: $(dpkg --get-selections | grep javac) \n Installed Git Packages: $(dpkg --get-selections | grep git)" >out_2.txt
+   26  cat out_2.txt 
+   27  echo -e "UBUNTU-Version-Number: $(lsb_release -d | cut -f2-) \n ------------------------------------------ \n Installed Java Packages: $(dpkg --get-selections | grep javac) \n Installed Git Packages: $(dpkg --get-selections | grep git)"\n Installed Python Packages: $(pip list)" >out_2.txt
+
+   28  echo -e "UBUNTU-Version-Number: $(lsb_release -d | cut -f2-) \n ------------------------------------------ \n Installed Java Packages: $(dpkg --get-selections | grep javac) \n Installed Git Packages: $(dpkg --get-selections | grep git)"\n Installed Python Packages: $(pip list)" >out_2.txt
+
+
+   29  echo -e "UBUNTU-Version-Number: $(lsb_release -d | cut -f2-) \n ------------------------------------------ \n Installed Java Packages: $(dpkg --get-selections | grep javac) \n Installed Git Packages: $(dpkg --get-selections | grep git)\n Installed Python Packages: $(pip list)" >out_2.txt
+   30  cat out_2.txt 
+   31  curl https://example.com >> page1.html
+   32  ls
+   33  cat page1.html 
+   34  curl -o page1.html
+   35  curl -o https://example.com page1.html
+   36  cat page1.html 
+   37  curl -o https://example.com/ page1.html
+   38  curl -o https://www.w3docs.com/ page1.html
+   39  curl https://www.w3docs.com/ 
+   40  history >> ../../History/history_log2.log

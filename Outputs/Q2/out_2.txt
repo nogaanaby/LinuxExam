@@ -1,0 +1,6 @@
+UBUNTU-Version-Number: Ubuntu 22.04.2 LTS 
+ ------------------------------------------ 
+ Installed Java Packages:  
+ Installed Git Packages: git						install
+git-man						install
+ Installed Python Packages: 
